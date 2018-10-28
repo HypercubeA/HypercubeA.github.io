@@ -12,15 +12,15 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta name="description" content="">
+    <meta name="description" content="喵呜~~~">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="XiaoCai 的 9 维空间">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:description" content="喵呜~~~">
 
     <meta property="og:type" content="article">
     <meta property="og:title" content="XiaoCai 的 9 维空间">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="喵呜~~~">
 
     
     <meta name="author" content="Xiao Cai">
@@ -39,7 +39,7 @@
 
     <link rel="canonical" href="http://yoursite.com"/>
 
-                 
+      
 </head>
 
 <body class="home-template no-js">
@@ -60,7 +60,7 @@
         <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for XiaoCai 的 9 维空间">XiaoCai 的 9 维空间</a></h1>
         
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description"></p>
+        <p class="panel-cover__description">喵呜~~~</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
@@ -179,6 +179,7 @@
 </script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+	
 </div>
 
 
@@ -225,5 +226,12 @@
 
     <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     
+	{% if theme.fireworks %}
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
+	{% endif %}
+
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+
 </html>
